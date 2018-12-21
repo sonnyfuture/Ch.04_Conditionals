@@ -1,6 +1,6 @@
 '''
 HONOR CODE: I solemnly promise that while taking this test I will only use PyCharm or the Internet,
-but I will definitely not ask another person except the instructor. Signed: ______________________
+but I will definitely not ask another person except the instructor. Signed: Eddie H. Agic
 
 
   1. What is missing from this code?
@@ -11,8 +11,8 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Jedi, you will never be.")
 '''
-     
-     
+
+
      
 '''
   2. This runs, but there is something wrong. What is it?

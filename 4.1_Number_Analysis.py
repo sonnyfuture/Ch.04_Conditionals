@@ -19,6 +19,8 @@ Out:  Test 1: Odd
       Test 3: Exclusive
 '''
 
+#Asking for number, seeing if odd or even, negative or positive, and inclusive or exclusive.
+
 num=int(input("Enter A Number: "))
 if num%2 == 0:
     print("Test 1: Even")

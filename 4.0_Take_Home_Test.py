@@ -12,7 +12,13 @@ but I will definitely not ask another person except the instructor. Signed: Eddi
          print("Jedi, you will never be.")
 '''
 
+midi=float(input("Enter midichlorian count: "))
+if midi > 10000:
+    print("You have serious Jedi potential.")
+else:
+    print("Jedi, you will never be.")
 
+    #Add a parenthesis after the midichlorian count
      
 '''
   2. This runs, but there is something wrong. What is it?
@@ -26,7 +32,15 @@ but I will definitely not ask another person except the instructor. Signed: Eddi
          print("Incorrect.")
 '''
 
+print("A. Droid")
+print("B. Storm Trooper")
+user_input=input("R2D2 is a: ")
+if user_input.upper() == "A":
+    print("Correct!")
+else:
+    print("Incorrect.")
 
+    #The answer options have to show up above the user input or else the person inputting won't know what to put.
 
 '''
      
@@ -41,19 +55,26 @@ but I will definitely not ask another person except the instructor. Signed: Eddi
      else:
          print("x is not positive.")
  '''
+
+x=float(input("Number: "))
+if x > 0:
+    print("x is positive.")
+else:
+    print("x is not positive.")
+
+    #one equals sign and 0 is not a positive number so it should not be included.
  
- 
- 
- '''
+'''
   4. What three things are wrong with the following code?
      
      x = input("Enter a number: ")
      if x = 3
          print("You entered 3")
  '''
+
+ #1. It is not asking for an integer or a float, 2. Missing a colon after the if statement, 3. If statement should have two equals signs.
  
- 
- '''
+'''
   5. There are four things wrong with this code. Identify all four issues. 
      
      answer = input("What is the name of Poe Dameron's Droid? ")

@@ -29,10 +29,12 @@ else:
 
 if num > 0:
     print("Test 2: Positive")
-else:
+else if num < 0:
     print("Test 2: Negative")
+else:
+    print("Test 2: Zero")
 
-if num > -100 and num < 100:
+if num >= -100 and num <= 100:
     print("Test 3: Inclusive")
 else:
     print("Test 3: Exclusive")

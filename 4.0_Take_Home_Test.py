@@ -84,7 +84,11 @@ else:
          print("Incorrect! It is BB8.")
 '''
 
-
+answer = input("What is the name of Poe Dameron's Droid? ")
+if answer = "BB8":
+    print("Correct!")
+else:
+    print("Incorrect! It is BB8.")
 
 '''
   6. This program doesn't work correctly. What is wrong?

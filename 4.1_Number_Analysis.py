@@ -29,7 +29,7 @@ else:
 
 if num > 0:
     print("Test 2: Positive")
-else if num < 0:
+elif num < 0:
     print("Test 2: Negative")
 else:
     print("Test 2: Zero")

@@ -85,10 +85,12 @@ else:
 '''
 
 answer = input("What is the name of Poe Dameron's Droid? ")
-if answer = "BB8":
+if answer == "BB8":
     print("Correct!")
 else:
     print("Incorrect! It is BB8.")
+
+#2 equal signs
 
 '''
   6. This program doesn't work correctly. What is wrong?
@@ -98,7 +100,14 @@ else:
          print("That is correct!")
 '''
 
+x = input("Who are the top 3 greatest Jedi?")
+if x == "Yoda" or x=="Luke Skywalker" or x=="Obi-Wan Kenobi":
+    print("That is correct!")
+else:
+    print("WRONG!")
 
+
+#all three of the answers have to be == to x
 
 '''
   7. Look at the code below. Write your best guess here on what it will print.

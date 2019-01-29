@@ -54,5 +54,6 @@ if question_5=="35":
 else:
     print("TAKE GOV (the correct answer is 35)!!!!!!!!!!!")
 
-print((score/total),"% Correct")
+print((score/total)*100,"% Correct")
+
 

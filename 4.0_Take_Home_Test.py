@@ -126,7 +126,20 @@ else:
          print("Star Wars Episodes 4,5,6 are the best!")
 '''
 
+#GUESS: I don't get this at all, why is x assigned to 5 but set to 6 and 5...
 
+x = 5
+y = x == 6
+z = x == 5
+print("x=", x)
+print("y=", y)
+print("z=", z)
+if y:
+    print("Star Wars Episodes 1,2,3 are the best!")
+if z:
+    print("Star Wars Episodes 4,5,6 are the best!")
+
+#ANSWER: It outputs "Star Wars Episodes 4,5,6 are the best!"  This happens because the code is asking for y to be assigned to x which is equal to 6, but that is not true.  Meanwhile z IS true, so it outputs the second answer.
 
 
 '''
@@ -148,9 +161,26 @@ else:
      print(x == 5 and y == 5)
      print(x == 5 or y == 5)
 '''
+#GUESS: This one is probably similar to the last one, although I am not entirely sure what printing a < or > statement would do.
 
 
+x = 5
+y = 10
+z = 10
+print(x < y)
+print(y < z)
+print(x == 5)
+print(not x == 5)
+print(x != 5)
+print(not x != 5)
+print(x == "5")
+print(5 == x + 0.000000)
+print(x == 5 and y == 1)
+print(x == 5 and y == 5)
+print(x == 5 or y == 5)
 
+
+#ANSWER: It simply declares whether or not each statement is true or false.
 '''
  9. Look at the code below. Write you best guess on what it will print.
      Next, run the code and see if you are correct. (HINT: when comparing strings, ASCII codes are used. https://www.ascii-code.com/)
@@ -165,6 +195,20 @@ else:
      print((2 == 2) == True)
      print("?"<"!")
 '''
+
+#GUESS: It will say whether or not each statement is true or false and will check the strings using ASCII codes.
+
+print("3" == "3")
+print(" 3" == "3")
+print(3 < 4)
+print("3" < "4")
+print("3" < 4)
+print("<" < ">")
+print((2 == 2) == "True")
+print((2 == 2) == True)
+print("?"<"!")
+
+#ANSWER: I was right.  Although it refuses to compare strings and integers.
 
 
 
@@ -187,4 +231,6 @@ else:
      else if user_input = C:
          money = 0
 '''
+
+#Elif, should use .lower(), == not =
 

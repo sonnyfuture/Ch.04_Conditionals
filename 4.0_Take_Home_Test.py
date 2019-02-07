@@ -129,8 +129,8 @@ else:
 #GUESS: I don't get this at all, why is x assigned to 5 but set to 6 and 5...
 
 x = 5
-y = x == 6
-z = x == 5
+y = x == 6  # since x==6 is false this sets y to false
+z = x == 5   #since x==5 is true this sets z to true.
 print("x=", x)
 print("y=", y)
 print("z=", z)
@@ -196,7 +196,7 @@ print(x == 5 or y == 5)
      print("?"<"!")
 '''
 
-#GUESS: It will say whether or not each statement is true or false and will check the strings using ASCII codes.
+#GUESS: It will say whether or not each statement is true or false and will check the strings using ASCII codes. Supposed to record your guesses!!!!
 
 print("3" == "3")
 print(" 3" == "3")
@@ -208,7 +208,7 @@ print((2 == 2) == "True")
 print((2 == 2) == True)
 print("?"<"!")
 
-#ANSWER: I was right.  Although it refuses to compare strings and integers.
+#ANSWER: I was right.  Although it refuses to compare strings and integers. Supposed to record your guesses!!!!
 
 
 
@@ -232,5 +232,5 @@ print("?"<"!")
          money = 0
 '''
 
-#Elif, should use .lower(), == not =
+#Elif, should use .lower(), == not =  (Should also be quotes around A, B, C
 
